@@ -7,6 +7,8 @@ local textureNamespaces = {}
 
 ---@alias textureObject table
 
+-- TODO: support for adding animations
+
 --- Registers a texture object under a given namespace.
 --- @param namespace string The namespace under which to register the texture (eg. Your addon name).
 --- @param textureObject textureObject The texture object to register.
